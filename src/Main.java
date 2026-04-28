@@ -7,8 +7,8 @@ public class Main {
                 new PersonalTrainingPlan("PT-201", "Jan Malinowski", 6, 150.0, false, 8, 3, true),
                 new OnlineCoachingPlan("ONL-300", "Karolina Wisniewska", 6, 89.0, true, 2, true, true),
                 new OnlineCoachingPlan("ONL-301", "Pawel Adamski", 3, 79.0, false, 1, false, true),
-                //new CorporateWellnessPlan("CORP-400", "TechNova Sp. z o.o.", 12, 350.0, true, 25, 2, true),
-               // new CorporateWellnessPlan("CORP-401", "SoftLine S.A.", 6, 320.0, false, 14, 0, false)
+                new CorporateWellnessPlan("CORP-400", "TechNova Sp. z o.o.", 12, 350.0, true, 25, 2, true),
+                new CorporateWellnessPlan("CORP-401", "SoftLine S.A.", 6, 320.0, false, 14, 0, false)
         };
 
         double totalMonthlyNet = 0.0;
